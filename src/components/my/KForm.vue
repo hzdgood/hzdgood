@@ -22,8 +22,8 @@ export default {
     validate(cb) {
       console.log(1111);
       const tasks = this.$children
-        .filter(item => item.prop)
-        .map(item => item.validate());
+        .filter((item) => item.prop)
+        .map((item) => item.validate());
       Promise.all(tasks)
         .then(() => cb(true))
         .catch(() => cb(false));
