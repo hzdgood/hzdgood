@@ -1,5 +1,21 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <button @click="onClick1()"></button>
   </div>
 </template>
+
+<script>
+export default {
+  inheritAttrs: false,
+  name: 'about',
+  methods:{
+    onClick1(){
+      
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
