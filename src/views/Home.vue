@@ -5,20 +5,21 @@
         <KInput
           v-model="model.username"
           type="text"
-          placeholder="qing"
+          placeholder="请输入用户名"
         ></KInput>
       </KFormItem>
       <KFormItem label="密码" prop="password">
         <KInput
           v-model="model.password"
           type="password"
-          placeholder="qing"
+          placeholder="请输入密码"
         ></KInput>
       </KFormItem>
       <KFormItem>
         <button @click="onLogin">登入</button>
       </KFormItem>
     </KForm>
+    <t1></t1>
   </div>
 </template>
 
@@ -27,6 +28,7 @@
 import KInput from "@/components/my/KInput.vue";
 import KFormItem from "@/components/my/KFormItem.vue";
 import KForm from "@/components/my/KForm.vue";
+import t1 from "@/components/text/t1.vue";
 
 export default {
   data() {
@@ -47,6 +49,7 @@ export default {
     KInput,
     KFormItem,
     KForm,
+    t1
   },
   methods: {
     onLogin() {
