@@ -7,15 +7,12 @@
 <script>
 export default {
   inheritAttrs: false,
-  name: 'about',
-  methods:{
-    onClick1(){
-      
-    }
-  }
-}
+  name: "about",
+  methods: {
+    onClick1() {},
+  },
+};
 </script>
 
 <style scoped>
-
 </style>
