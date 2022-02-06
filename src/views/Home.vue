@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
     <KForm :model="model" :rules="rules" ref="form">
       <KFormItem label="用户名" prop="username">
         <KInput
@@ -25,7 +24,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import KInput from "@/components/my/KInput.vue";
 import KFormItem from "@/components/my/KFormItem.vue";
 import KForm from "@/components/my/KForm.vue";
@@ -46,7 +44,6 @@ export default {
   },
   name: "Home",
   components: {
-    HelloWorld,
     KInput,
     KFormItem,
     KForm,
