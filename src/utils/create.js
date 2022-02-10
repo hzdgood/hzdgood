@@ -1,7 +1,10 @@
 import Vue from "vue";
 
 export function create(components, props){
+    
     let Ctor = Vue.extend(components);
+    const comp = new Ctor({propsData: props})
+    comp.$mount();
 
     const vm = new Vue({
         render(h){

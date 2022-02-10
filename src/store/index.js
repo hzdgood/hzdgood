@@ -20,10 +20,10 @@ export default new Vuex.Store({
       //你还可以在这里触发其他的mutations方法
     },
   },
-  getters:{
-    not_show(state){//这里的state对应着上面这个state
-        return !state.show;
+  getters: {
+    not_show(state) { //这里的state对应着上面这个state
+      return !state.show;
     }
-},
+  },
   modules: {}
 })
