@@ -1,24 +1,5 @@
-# vue-study
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+my 主要研究自定义组件
+d1 主要研究vuex，父子参数
+d2 主要研究$attrs $listens $refs $emit
+安装 yarn install
+运行 npm run dev
